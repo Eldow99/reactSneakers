@@ -1,0 +1,47 @@
+.card {
+	border: 1px solid #f8f8f8;
+	padding: 30px;
+	width: 220px;
+	border-radius: 40px;
+	margin-right: 30px;
+	transition: box-shadow 0.3s ease-in-out transform 0.3s ease-in-out;
+}
+.card:hover {
+	box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.07);
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+.favorite {
+	position: absolute;
+}
+.sneakers {
+	width: 133px;
+	height: 112px;
+}
+.cardBottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cardBottom_price {
+	display: flex;
+
+	flex-direction: column;
+}
+.plus {
+	box-sizing: border-box;
+
+	width: 22px;
+	height: 22px;
+
+	background: #ffffff;
+	border: 1px solid #f2f2f2;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+h5 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 20px 0 10px 0;
+}
